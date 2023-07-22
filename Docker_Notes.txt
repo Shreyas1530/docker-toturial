@@ -1,0 +1,44 @@
+ 
+ ---> What is a container?
+ 
+ ---> How do I run a container?
+ 
+ --> Build your first image 
+ docker build -t welcome-to-docker .
+ 
+ --> Run your container 
+ click on link
+ 
+
+ ---> Multi-container applications
+ 
+ We are going to run this application with the docker compose up command in your project directory. This command builds and runs all the services listed in the compose file.
+ docker compose up -d 
+  --> Diging into compose.yaml
+  --> Running the aplication
+  docker compose up -d
+  
+ 
+ ---> Persist your data between containers
+ 
+ --> adding Volumes to compose
+ 
+ 
+ --> Containerize your application
+ 
+ docker init
+ 
+ 
+ --> Run Docker Hub images
+ 
+ 
+ --> Publish your image
+ 
+  welcome-to-docker image, and select Pull.
+  
+  rename your Image 
+  docker tag docker/welcome-to-docker YOUR-USERNAME/welcome-to-docker
+  
+  push image to docker hub
+  Go to the Images tab and find your image. In the Actions column, select the Show image actions icon and then select Push to Hub.
+  
